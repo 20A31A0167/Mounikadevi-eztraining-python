@@ -1,0 +1,75 @@
+#L=[1,2,3,5,6]
+for i in range(len(L)):
+ print(L[i])
+
+
+
+ #USING MEMBERSHIP OPERATER
+ for j in L:
+     print(j)
+
+
+
+#L=[1,2,3,4,5,6]
+
+for i in L:
+    if(i%2==0):L=["hyd","vizag","chennai","vijayawada"]
+city= []
+for n in L:
+    if "v" in n:
+        city.append(n)
+print(city)
+
+
+
+        print(i)
+
+
+
+#size=int(input("size"))
+
+L=[]
+for i in range(size):
+    ele=int(input("element:"))
+    L.append(ele)
+
+print(L)
+
+for j in L:
+    if(j%2==0):
+        print(j)size=int(input("size"))
+
+
+
+
+#L1=[2**x for x in range(2,10)]
+print(L1)
+
+
+#tuple
+t=(4,5,2,9.6,"ice cream")
+type(t)
+<class 'tuple'>
+t.count(4)
+1
+t.index(5)
+1
+d={1:"one",2:"two"}
+d
+{1: 'one', 2: 'two'}
+type(d)
+<class 'dict'>
+d.keys([2,3])
+d.keys()
+dict_keys([1, 2])
+d.values()
+dict_values(['one', 'two'])
+d.items()
+dict_items([(1, 'one'), (2, 'two')])
+
+
+
+
+
+
+
