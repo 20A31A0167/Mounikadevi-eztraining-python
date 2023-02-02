@@ -1,0 +1,11 @@
+append()-add an one element to the list-1.append(4)
+extend()-add all elements of a list to another list-1.extend([5,6)]
+insert()-insert an item at defined index(1,33)-1-index
+remove()-removes an item from the list-1 remove(22)
+pop()-remove & returns an element of given index-1.pop(3)
+clear()-removes all items from the list
+index()-returns the index of first matched item
+count()-returns the countof the no of items passed 
+sort()-sort items in list in ascending order
+reverse()-reverse the order of items in list
+copy()-returns a shallow copy of the list
