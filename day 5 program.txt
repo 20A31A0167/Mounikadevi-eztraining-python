@@ -1,0 +1,169 @@
+#display whole year calender
+
+
+import calendar
+
+print("full calendar")
+print(calendar.calendar(2022))
+
+
+print("particular month")
+print(calendar.month(2021,3))
+
+
+print("set first day of the week")
+calendar.setfirstweekday(calendar.FRIDAY)
+print(calendar.month(2021,12))
+
+
+
+#DISPLAY DATE TIME
+
+import datetime
+
+a=datetime.datetime.now()
+print(a)
+
+sv=a.strftime("%y")  #lower case
+fv=a.strftime("%y")  #upper case
+
+
+print("year short version",sv)
+print("year full version",fv)
+
+def multi():
+    n1=int(input("number"))
+    n2=int(input("number"))
+    n3=int(input("number"))
+    prod=n1*n2*n3
+    print(prod)
+
+
+#with argument,with return value
+def multi():
+    n1=int(input("number"))
+    n2=int(input("number"))
+    n3=int(input("number"))
+    prod=n1*n2*n3
+    return(prod)
+
+
+res=multi()
+print(res)
+
+
+
+
+multi()
+#with argument ,without return value
+
+def multi(s1,s2,s3):
+    prod=s1*s2*s3
+    print(prod)
+
+multi(5,6,7)
+
+def multi(a,b,c):
+    prod=a*b*c
+    print(prod)
+
+
+
+
+n1=int(input("enter 1:"))
+n2=int(input("enter 2:"))
+n3=int(input("enter 3:"))
+multi(n1,n2,n3)#with argument ,with return value
+#static input
+
+def multi(s1,s2,s3):
+    prod=s1*s2*s3
+    return(prod)
+
+res=multi(3,5,8)
+print(res)
+
+
+
+#user input
+
+def multi(a,b,c):
+    prod=a*b*c
+    return(prod)
+n1=int(input("enter 1:"))
+n2=int(input("enter 2:"))
+n3=int(input("enter 3:"))
+res1=multi(n1,n2,n3#lemons
+def lemons():
+    lemons=int(input("enternumber of lemons in ur hand"))
+    reqprod=3*lemons
+    print(reqprod)
+    prod=9
+    if reqprod<prod:
+        print("lemons are lrss:",prod-reqprod)
+    elif reqprod>prod:
+        print("lemons are more:",reqprod-prod)
+    elif reqprod==prod:
+        print("lemons are sufficient")
+    else:
+        print("nothing")
+lemons()
+
+print(res1)
+
+#multiplication table
+n=6
+for i in range(1,10):
+    print(i,"X",n,"=",i*n)
+
+#sum of digits of given no
+
+def digits(n):
+    sum=0
+    while n!=0:
+        rem=n%10
+        sum=sum+rem
+        n=n//10
+    return sum
+
+n=int(input("enter the number"))
+res=digits(n)
+print(res)
+
+
+
+
+#recursive
+def display():
+    n=int(input("enter a number"))
+    if n==1:
+        display()
+    else:
+        print("over")
+
+display()
+
+
+
+
+
+ #without arg and with return value
+
+def fact():
+    x=int(input())
+    for i in range (1,x+1):
+        if x%i==0:
+            print(i)
+    return i
+res=fact()
+
+
+
+
+
+
+
+
+
+
+

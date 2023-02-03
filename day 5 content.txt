@@ -1,0 +1,19 @@
+FUNCTIONS
+1.pre defined functions 
+2.user defined functions
+   for code reusability for fun
+let say we want to use a particular concept multiple tymes our program instead of writing the ame code many times
+we can write it once include that inside a function and can call the function whereever we need it
+
+
+types:
+
+1.functions without argument and no return value 
+2.without argument and with return value
+3.with arg and with return value
+with argument and without return value
+
+
+
+RECURSIVE FUNCTION:
+A function which calls itself .
