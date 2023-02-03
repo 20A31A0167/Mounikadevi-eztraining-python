@@ -1,0 +1,74 @@
+##'''str=input("enter string")
+char=input("enter char")
+if char in str:
+    print("the given character is present in the string")
+else:
+    print("the given character is not present in the string")'''
+
+
+
+
+
+
+
+
+s=input("enter:")
+char=input()
+for i in s:
+        if i==char:
+            flag=1
+            break
+    else:
+        flag=0
+if flag==1:
+    print("present")
+    else:
+        print("not present")
+
+
+
+
+##old={'rice':60,'dhaal':120,'oil':150}
+new={product:price*5 for (product,price)in old.items()}
+print(new)
+
+
+
+
+##import random
+student_names=list(map(str,input("enter names: ")))
+marks = []
+for i in range (len(student_names)):
+    a=(random.randint(300,500) /500)*100
+    marks.append(a)
+my_dict ={x:y for (x,y)in zip(student_names,marks)}
+print(my_dict)
+
+
+
+
+
+##s=str(input("enter:"))
+if reversed(s)==s:
+    print("it is palindrome")
+else:
+    print("it is not palindrome ")
+
+
+
+str=input()
+x=0
+for i in str:
+    if i ==" ":
+        x=x+1
+print(x)
+
+
+
+##L=['a','e','i','o','u','A','E','I','O','U']
+S=input("ENTER THE STRING")
+count=0
+for i in S:
+    if i in L:
+        count=count+1
+print(count)
