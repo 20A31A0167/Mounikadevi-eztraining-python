@@ -1,0 +1,15 @@
+EXCEPTION HANDLING
+when there is exception the developer does not want intruption or 
+disturbance in the program flow.to achieve this we areusing exception handling
+
+
+OOPS(ODJECT ORIENTED PROGRAMMING STRUCTURE)
+its an efficient concept use in all object oriented course like java and python
+for multi reasons we use oops concept.
+for ex data security,data hiding,data,reuseability.
+#class:
+*its a blue print.ex:birds,laptops
+#object:*its a thing create based on class
+NOTE:
+one class have multiple objects.
+for ex;birds are class and there types like peacock,parrot,crow comes under objects.
