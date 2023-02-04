@@ -1,0 +1,129 @@
+EXCEPTION
+a=200
+b=0
+try:# u r telling this may have erroe ,u try
+    print(a/b)
+#except Exception :#u saying if error thr i handle#
+    print("cant divide any number by zero")
+
+except Exception as e:
+    print("please note,number cant be divide by zero",e)#this will print error also
+#tocheck your prg Excecution goes till end or get
+
+print("bye")
+
+O/P:    
+    please note,number cant be divide by zero division by zero
+bye
+
+  
+
+
+ 
+exception......    
+a=10
+b=0
+
+try:
+    print("resource open")
+    print(a/b)
+
+except Exception as e:
+    print("dont give a second numberas zero",e)
+
+finally:#will get execute if thr is error or not
+    print("Resource closed")
+o/p:resource open
+dont give a second numberas zero division by zero
+Resource closed
+
+#for those specific error only those exceptions
+a=10
+try:
+    b=int(input("enter the number"))
+    print("resorce open")
+    print(a/b)
+except  zerodivisionerror as e:
+    print("please note,number cant be divide byzero")
+except valueerror as e:
+    print("invalidinput",e)
+except Exception as e:
+    print("other error",e)
+finally:
+          print("resource closed")
+o/p:enter the number5
+resorce open
+2.0
+resource closed
+##
+x=120
+if x%2!=0:
+    raise Exception("x shud be even number")
+
+else:
+    print("x is even number correct")
+o/p:
+x is even number correct
+
+
+
+##class computer:
+    def config(self):
+        print("yes")
+
+lenova=computer()
+lenova.config()
+
+dell=computer()
+dell.config()
+
+o/p:yes
+yes
+##
+class Employee:
+    def __init__(self, name, id):
+        self.id = id
+        self.name = name
+
+    def display(self):
+        print("ID: %d\nNAMES: %s" %(self.id,self.name))
+
+
+emp1=Employee("John",102)
+emp2=Employee("David",103)
+
+emp1.display()
+emp2.display()
+o/p:
+ID: 102
+NAMES: John
+ID: 103
+NAMES: David
+###
+class computer():
+    a=22
+    b=32
+    print("Class variable inside class",a)
+
+    def config(self):
+        c=100
+        print("yes")
+        print("Instance access",self.b)
+
+lenova=computer()
+print(lenova.a)
+print(lenova.a+lenova.b)
+dell=computer()
+print("dell",dell.a)
+o/p:
+Class variable inside class 22
+22
+54
+dell 22
+yes
+Instance access 32
+
+
+
+
+
