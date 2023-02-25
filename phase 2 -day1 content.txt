@@ -1,0 +1,26 @@
+functioon-code reusability
+lambda function-its called as ananumous function when we want to use function concept without 
+using function name there we apply concept of lambda function
+
+
+
+4 pillers of oops
+1.abstraction:hiding the implementation part showing what is required for 
+the users is called as abstraction ex;exe file
+ 
+2.encapsulation:binding data and function into a single entity
+  'a'.public------one class info can be accessed by any other class
+  'b'.private-----can used where it is declared/no in inheritected 
+  'c'.protected---can be accessed only where it got declared---which ever 
+      class inherited from this class there also we can use
+3.inharitance:base class and derived class 
+   derived class will inherit properties of base class
+   base class-parent class
+   derived class-child class
+**4 types of inharitance
+1.single inharitance
+2.multiple inharitance
+3.multilevel inharitance
+4.hierarchical inharitance
+5.hybrid inharitance
+4.polymorphism
