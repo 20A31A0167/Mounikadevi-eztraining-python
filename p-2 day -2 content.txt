@@ -1,0 +1,37 @@
+polymorphism:
+one item or same item used for different purposes.
+types:
+1)overloading
+a)operater overloading
+b)methods overloading
+2)over riding:IF a method is defective are cannot 
+be used inside derived class it will take 
+it from its base class or parent class
+
+                 
+
+
+                                      DATA STRUCTERS
+
+Helps to write efficient programs 
+*linear-array /linkedlist/STACK/QUEUE/MATRIX
+*NON LINEAR-BINARY TREE /HEAP/HASH TABLE/GRAPH
+LINEAR-storing data seuentially
+*nonlinear-no sequentialstyle required
+
+static-array(size increase or decrease)
+dynamic-list,stack,queue.
+
+LINKED LIST:real time example-train
+as the name says list of items which are linked with one another is called as linked list.
+TYPES:singly/doubly/circular
+
+
+##creating link list
+1.create the node
+2.partisian the node with two segments data and none 
+3.add value into the blank node 
+4.mark the node as head
+5.create the next node by folloeing the above steps now ur nxt step  to be established link b/w the 1st node and 2 nd node
+*display linked list
+traversalis required for 1 st node till in order to display 
