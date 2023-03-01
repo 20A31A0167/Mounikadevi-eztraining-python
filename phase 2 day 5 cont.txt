@@ -1,0 +1,26 @@
+binary tree:a node have maximum 2 child
+
+binary traversal
+1.in order:left-root-right(lrd)
+2.pre order:root-left-right(dlr)
+3.post order:left-right-root(lrd)
+
+1.breadth first traversal:
+2.depth first traversal:
+
+#binarytree types:
+1.full binarytree:all the nodes will have 0 or 2 children
+2.pathological/degenerate tree:all nodes have 0/1 node
+3.skewed binary tree:
+*left skewed binary tree
+*right skewed binary tree
+
+#complete binary tree:
+1.every level should be full or complete 
+2.in last level if it is incomplete notes should present at extreme keft side
+
+#perfect binary tree:
+1.all internal nodes those who have two child and leaf nodes both are at same level
+2.balanced binary tree:for all the nodes height of left subtree-height of right subtree can be 0/1 then it is called as balanced binary tree.
+# aspecial tree is called binary search tree.all the left side elements should be lesser then its perent and all right side elements should 
+be greater than its parent.
