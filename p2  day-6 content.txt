@@ -1,0 +1,17 @@
+graph is a combination of vertices and edges
+types of graph:
+1.undireected graph
+2.directed graph
+3.weight  graph
+#representation of graph
+1.list of edges
+2.adjacency of list
+3.adjacency of matrix
+
+#bfs:in bredth for search visit a vertex and visit all the adjacent vetices
+#dfs:in this after visiting a vertex select one of its adjacent and explore with completely move on with other vertex.
+
+dikshtra algorithm:
+it comes under 3d where solution for the given oroblrm id figyred out stage by stage.
+helps you to find out shortest path/distance from one vertex to all the other vertices
+drawback:if weihght of any edge is negative number dikshtra work for that.
